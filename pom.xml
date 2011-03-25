@@ -35,28 +35,48 @@
     </contributors>
     
     <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <groupId>org.apache.maven.plugins</groupId>
-                <configuration>
-                    <descriptors>
-                        <descriptor>src/main/assembly/bin.xml</descriptor>
-                    </descriptors>
-                    <appendAssemblyId>true</appendAssemblyId>
-                    <finalName>${artifactId}-${version}</finalName>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>make-assembly</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>attached</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
+      <plugins>
+        <plugin>
+          <groupId>com.artofsolving</groupId>
+          <artifactId>jodconverter-maven-plugin</artifactId>
+          <version>2.2.2</version>
+          <configuration>
+            <sourceDirectory>${basedir}/src/main/docs</sourceDirectory>
+            <outputDirectory>${basedir}/target</outputDirectory>
+            <include>**/*.odm</include>
+            <outputFormat>pdf</outputFormat>
+          </configuration>
+          <executions>
+            <execution>
+              <id>make-assembly</id>
+              <phase>site</phase>
+              <goals>
+                <goal>convert</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <groupId>org.apache.maven.plugins</groupId>
+          <configuration>
+            <descriptors>
+              <descriptor>src/main/assembly/bin.xml</descriptor>
+            </descriptors>
+            <appendAssemblyId>true</appendAssemblyId>
+            <finalName>${artifactId}-${version}</finalName>
+          </configuration>
+          <executions>
+            <execution>
+              <id>make-assembly</id>
+              <phase>package</phase>
+              <goals>
+                <goal>attached</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
     </build>
 
     <scm>

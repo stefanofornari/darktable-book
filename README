@@ -1,1 +1,6 @@
 This is the Darktable user manual project.
+
+To generate the package:
+
+soffice -accept="socket,host=127.0.0.1,port=8100;urp;"&
+mvn clean site package
