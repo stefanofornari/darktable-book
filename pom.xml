@@ -11,6 +11,28 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>Darktable user manual</name>
+
+    <licenses>
+      <license>
+	  <name>Creative Commons Attribution-ShareAlike 3.0 Unported License</name>
+	  <url>http://creativecommons.org/licenses/by-sa/3.0</url>
+      </license>
+    </licenses>
+
+    <contributors>
+      <contributor>
+        <name>Stefano Fornari</name>
+        <email>stefano.fornari@gmail.com</email>
+        <timezone>+1</timezone>
+      </contributor>
+      <contributor>
+        <name>Mario Latronico</name>
+        <timezone>+1</timezone>
+      </contributor>
+      <contributor>
+        <name>nicotranquil</name>
+      </contributor>
+    </contributors>
     
     <build>
         <plugins>
