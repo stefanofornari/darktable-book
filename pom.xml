@@ -34,7 +34,7 @@
         <name>Nicholas M.</name>
       </contributor>
     </contributors>
-    
+
     <build>
       <plugins>
         <plugin>
@@ -50,9 +50,9 @@
           <executions>
             <execution>
               <id>make-assembly</id>
-              <phase>site</phase>
+              <phase>package</phase>
               <goals>
-                <goal>convert</goal>
+                <goal>attached</goal>
               </goals>
             </execution>
           </executions>
