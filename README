@@ -1,6 +1,15 @@
 This is the Darktable user manual project.
 
-To generate the package:
+To generate the package (hard way):
 
 soffice -accept="socket,host=127.0.0.1,port=8100;urp;"&
 mvn clean package
+
+To generate the package (easy way):
+
+1.Make the generate-manual.sh file executable
+2.Double-click it then select "run in terminal"
+3.Wait for it to finish.
+4.You're done!
+
+(Note: The first step only needs to be done once.)
