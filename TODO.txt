@@ -1,0 +1,21 @@
+In this document we will write a TODO list and below you will find a table of contents like how we want it to look like.
+
+
+Table of Contents
+
+• Tutorial
+• User interface
+◦ Lighttable
+◦ Darktable
+• RAW images management
+• RAW development
+◦ Basic workflow
+◦ ... other common workflows ? ...
+•
+Advanced Darktable
+◦ styles, tagging
+◦ camera tethering
+◦ plugin reference
+•
+Appendices
+
