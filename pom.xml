@@ -9,7 +9,7 @@
     <groupId>darktable-user-manual</groupId>
     <artifactId>darktable-user-manual</artifactId>
     <packaging>pom</packaging>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2</version>
     <name>Darktable user manual</name>
 
     <licenses>
