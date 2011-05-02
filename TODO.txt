@@ -1,5 +1,7 @@
-In this document we will write a TODO list and below you will find a table of contents like how we want it to look like.
+You can find a tasklist on the github wiki at: https://github.com/stefanofornari/darktable-user-manual/wiki/Tasklist
 
+
+In this document we will write a TODO list and below you will find a table of contents like how we want it to look like:
 
 Table of Contents
 
