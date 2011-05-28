@@ -10,7 +10,7 @@
     <artifactId>darktable-book</artifactId>
     <packaging>pom</packaging>
     <version>0.7-SNAPSHOT</version>
-    <name>Digital photos development with Darktable</name>
+    <name>Digital photo development with Darktable</name>
 
     <licenses>
       <license>
