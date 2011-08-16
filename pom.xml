@@ -83,8 +83,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:git://github.com/stefanofornari/darktable-user-manual</connection>
-        <url>http://github.com/stefanofornari/darktable-user-manual/tree/master</url>
+        <connection>scm:git:git://github.com/stefanofornari/darktable-book</connection>
+        <url>http://github.com/stefanofornari/darktable-book/tree/master</url>
     </scm>
 
     <distributionManagement>
