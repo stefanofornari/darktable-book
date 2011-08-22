@@ -1,0 +1,202 @@
+/*
+Theme Name: Dkn Fusion
+Author: Eleazar Dan Biscaro
+Website: dkntemplates.com and danbiscaro.com
+*/
+
+/*** Reset ***/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+ol,ul { list-style: none; }
+blockquote,q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none; }
+:focus { outline: 0; }
+img { vertical-align: bottom; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*** Clearfix ***/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0; }
+.clear { clear: both; }
+
+/*** Positioning and Alignment ***/
+.fl { float: left; }
+.fr { float: right; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-center { text-align: center; }
+
+/*** General Settings ***/
+body {
+/*
+ * Original color
+	background: #1b1919 url(../images/body-bg.jpg) repeat;
+ * Another nice color 
+ * background: #4c4747 url(../images/body-bg.jpg) repeat;
+ * 
+ * Color to which I stick
+ * background: #b2a5a5 url(../images/body-bg.jpg) repeat;
+ * 
+*/
+    background: #b2a5a5 url(../images/body-bg.jpg) repeat;
+	color: #fff;
+	font-family: Georgia, sans-serif;
+	font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+	font-weight: normal; 
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #252525
+}
+
+p { 
+	margin: 0 0 25px 0; 
+	line-height: 22px;
+}
+
+/*** Layout ***/
+#header {
+	margin: 0px auto;
+	padding: 50px 0px 35px;
+	width: 940px;
+}
+
+#main {
+	margin: 0px auto;
+	width: 940px;
+}
+
+#sidebar {
+	float: left;
+	width: 215px;
+}
+
+#content {
+	float: right;
+	width: 660px;
+}
+
+#footer {
+	margin: 0px auto;
+	width: 940px;
+}
+
+/*** Logo ***/
+#logo {
+	float: left;
+	height: 40px;
+	margin: 0px;
+	width: 212px;
+}
+
+#logo a:link,
+#logo a:visited {
+	background: url(../images/logo1.png) no-repeat;
+	display: block;
+	height: 40px;
+	text-indent: -9999px;
+	width: 212px;
+}
+
+/*** Socials ***/
+.socials {
+	float: right;
+	margin-top: 20px;
+}
+
+.socials li {
+	display: inline;
+	float: left;
+}
+
+.socials li a:link,
+.socials li a:visited {
+	display: block;
+	float: left;
+	height: 16px;
+	margin-left: 10px;
+	text-indent: -9999px;
+	width: 16px;
+}
+
+.socials li.twitter a { background: url(../images/socials.jpg) no-repeat scroll 0 0; }
+.socials li.facebook a { background: url(../images/socials.jpg) no-repeat scroll -26px 0; }
+.socials li.digg a { background: url(../images/socials.jpg) no-repeat scroll -53px 0; }
+.socials li.linkedin a { background: url(../images/socials.jpg) no-repeat scroll -79px 0; }
+
+.socials li.twitter a:hover { background: url(../images/socials.jpg) no-repeat scroll 0 -16px; }
+.socials li.facebook a:hover { background: url(../images/socials.jpg) no-repeat scroll -26px -16px; }
+.socials li.digg a:hover { background: url(../images/socials.jpg) no-repeat scroll -53px -16px; }
+.socials li.linkedin a:hover{ background: url(../images/socials.jpg) no-repeat scroll -79px -16px; }
+
+/*** Banner ***/
+.banner {
+	border: 5px solid #131212;
+	margin-bottom: 25px;
+}
+
+
+/*** Menu ***/
+#menu {}
+
+#menu li {
+	margin-bottom: 5px;
+}
+
+#menu li a:link,
+#menu li a:visited {
+	color: #fff;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 6px 10px 6px 30px;
+	text-decoration: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+#menu li.item-1 a { background: #070909; }
+#menu li.item-2 a { background: #e0de00; }
+#menu li.item-3 a { background: #d84f01; }
+/*
+#menu li.item-4 a { background: #ffbc6d; } 
+*/
+#menu li.item-4 a { background: #ff9f2e; }
+#menu li.item-5 a { background: #7c223b; }
+
+/*** Copyright ***/
+.copyright {
+/*
+	color: #b2a5a5;
+*/
+	color: #dcdcdc
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 20px 0px 20px 280px;
+	text-align: center;
+}
+
+.copyright a:link,
+.copyright a:visited {
+/*
+	color: #dcdcdc;
+*/
+	color: #dcdcdc
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	text-decoration: underline;
+}
