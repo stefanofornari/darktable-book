@@ -9,7 +9,7 @@
     <groupId>darktable-book</groupId>
     <artifactId>darktable-book</artifactId>
     <packaging>pom</packaging>
-    <version>0.7-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <name>Digital photo development with Darktable</name>
 
     <licenses>
@@ -83,8 +83,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:git://github.com/stefanofornari/darktable-user-manual</connection>
-        <url>http://github.com/stefanofornari/darktable-user-manual/tree/master</url>
+        <connection>scm:git:git://github.com/stefanofornari/darktable-book</connection>
+        <url>http://github.com/stefanofornari/darktable-book/tree/master</url>
     </scm>
 
     <distributionManagement>

@@ -1,4 +1,4 @@
-This is the Darktable user manual project.
+This is the Darktable book project.
 
 To generate the package (hard way):
 
@@ -7,7 +7,7 @@ mvn clean package
 
 To generate the package (easy way):
 
-1.Make the build-manual.sh file executable
+1.Make the build-book.sh file executable
 2.Double-click it then select "run in terminal"
 3.Wait for it to finish.
 4.You're done!
